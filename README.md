@@ -1,3 +1,5 @@
+# What is this?
+
 PatchIat provides the ability to patch the Import Address Table and hook
 and function imported by a dll or executable, provided you can get access
 to its ProcessModule, the .NET wrapper for HMODULE.
