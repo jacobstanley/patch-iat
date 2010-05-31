@@ -1,8 +1,8 @@
 # What is this?
 
-PatchIat provides the ability to patch the Import Address Table and hook
-and function imported by a dll or executable, provided you can get access
-to its ProcessModule, the .NET wrapper for HMODULE.
+PatchIat provides the ability to hook any function imported by a Win32 dll or
+executable. A dll/exe can be patched provided you can get access to an
+instance of its ProcessModule, the .NET representation of an HMODULE.
 
 # Example
 
